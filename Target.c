@@ -7,7 +7,7 @@ int main()
     {
         printf("YES");
     }
-    else
+    else if(a<10||b<10||c<10||d<10)
     {
         printf("NO");
     }
