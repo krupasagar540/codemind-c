@@ -1,8 +1,6 @@
 #include<stdio.h>
-int main()
+void sai(int a,int b)
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
     int c=21-(a+b);
     if(c>10)
     {
@@ -12,4 +10,10 @@ int main()
     {
         printf("%d",c);
     }
+}
+int main()  
+{
+    int a,b;
+    scanf("%d%d",&a,&b);
+    sai(a,b);
 }
